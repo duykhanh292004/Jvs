@@ -1,0 +1,9 @@
+var subtotal=(13+1)*5;
+var shipping=0.5*(13+1);
+var total=subtotal+shipping;
+var eLSub=document.getElementById('subtotal');
+eLSub.textContent=subtotal;
+var eLShip=document.getElementById('shipping');
+eLShip.textContent=shipping;
+var eLTotal=document.getElementById('total');
+eLTotal.textContent=total;
